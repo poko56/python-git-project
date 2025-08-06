@@ -1,4 +1,5 @@
 import config
+import datetime # เพิ่มบรรทัดนี้
 
 def say_hello(name):
    print(f"Hello, {name} from {config.APP_NAME}!")
@@ -9,3 +10,9 @@ def greet_user():
 
 if __name__ == "__main__":
    greet_user()
+
+
+def say_hello(name):
+   now = datetime.datetime.now() # เพิ่มบรรทัดนี้
+   print(f"Hello, {name} from {config.APP_NAME}!")
+   print(f"Today is {now.strftime('%Y-%m-%d')}.") # เพิ่มบรรทัดนี้
