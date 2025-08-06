@@ -16,5 +16,6 @@ def say_hello(name):
    now = datetime.datetime.now() # เพิ่มบรรทัดนี้
    print(f"Hello, {name} from {config.APP_NAME}!")
    print(f"Today is {now.strftime('%Y-%m-%d')}.") # เพิ่มบรรทัดนี้
-   print(f"Hi, {name} from {config.APP_NAME}!") # แก้ไขตรงนี้
+   print(f"Hello again, {name} from {config.APP_NAME}!") # แก้ไขให้เป็นข้อความที่ถูกต้อง
+   print(f"Today is {now.strftime('%Y-%m-%d')}.")
    print(f"Today is {now.strftime('%Y-%m-%d')}.")
